@@ -1,0 +1,45 @@
+.button {
+    display: inline-flex;
+    width: 500px;
+    height: 75px;
+    font-size: 47px;
+    padding: 0;
+    background-color: #356598;
+    border: 10px solid lightgray;
+    outline: none;
+    overflow: hidden;
+
+}
+
+.button-icon{
+    
+    color: white;
+    background-color: #295380;
+    padding-left: 80px;
+    padding-top: 4px;
+    padding-right: 0px;
+    overflow: hidden;
+    float: right;
+}
+
+.button-text{
+    color: white;
+    padding-top: px;
+    padding-left: 3px;
+    padding-right: 200px;
+}
+
+.button:hover {
+    background-color:#628ab4
+
+}
+
+.button:focus {
+    background-color: rgb(147, 178, 164);
+
+}
+
+.button-icon:focus{ 
+    background-color: aquamarine;
+}
+
